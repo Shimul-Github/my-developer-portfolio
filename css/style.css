@@ -1,0 +1,211 @@
+/*Start Universal Selectors*/
+*{
+    margin: 0;
+}
+/*End Universal Selectors*/
+/*Start Header-NAV Part*/
+
+header{
+    background-color: aqua;
+    width: 960px;
+    height: 380px;
+    background-image: url('../images/banner-back.png');
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    margin:0 auto;
+  
+}
+.header{
+    background-image: url('../images/banner-back.png'), url('../images/banner-text.png');/*background back pic ta thik moto adjust hocche na*/
+    background-repeat:no-repeat;
+    background-position:right bottom, left;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px; 
+    align-items: center; 
+}
+.website-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight:300;/*eta apply hoynai*/
+    
+}
+.website-title h1{
+    font-weight:1000;
+}
+.title-letter{
+    color: red;
+}
+.nav-menu ul{
+    list-style: none;
+    margin-top: 15px;
+ 
+}/*list style ta kake dibo, ul ke naki li ke*/
+.nav-menu ul li{ 
+    display: inline;
+    padding: 0 10px;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 5px;
+}
+.btn-primary{
+    background-color: #e2350e;
+    padding: 5px 10px;
+}
+/*End Header-NAV Part*/
+/*Start Header-BANNER Part*/
+.nav-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    align-items: center;
+}
+.banner-text h3{
+    font-family: 'Open Sans', sans-serif;
+    /* website er sob font ki eki style deoa jai na */
+    font-size: 30px;
+}
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    padding: 10px 0;
+}
+.banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+
+}
+
+/*End Header-BANNER Part*/
+/*Start About-me section Part*/
+main{
+    margin:0 auto;
+    max-width:770px;
+}
+.about-Me{
+    margin-top:20px;
+    background: #94f151;
+    border-radius:10px;
+    padding:30px 50px;
+    
+}
+.section-title{
+    margin-bottom:30px;
+    /*class use kora hole ki class soho tag die call korle ki kaj hoy na. tag die call korle ki kaj hoyna*/
+    text-align: center;
+}
+.section-description{
+    margin-bottom:30px;
+    text-align: center;
+}
+.sub-section-title{
+    display: flex;
+}
+table{
+    margin:10px auto;
+   
+}
+th{
+    padding:0 40px;
+}
+td{
+    padding:0 40px;
+}
+/*End of About-me section  Part*/
+/*Start of What I do section  Part*/
+.what-i-do{
+    margin-top:20px;
+    background: #de8e51;
+    border-radius:10px;
+    padding:30px 50px;
+}
+.container{
+    display:flex;
+    margin:20px auto;
+    gap: 30px;
+}
+.javascript{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding:10px 30px;
+    
+}
+.react{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+.mongodb{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+.nodejs{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+
+/*End of What I do section  Part*/
+/*Start of Resume section  Part*/
+.resume{
+    margin-top:20px;
+    background: #dbed60;
+    border-radius:10px;
+    padding:30px 50px;
+}
+.container{
+    display:flex;
+}
+.my-education h3 {
+    padding:10px 0;
+}
+.my-education h4 {
+    padding:10px 0;
+}
+.my-education p {
+    padding:10px 0;
+}
+.my-experience h3 {
+    padding:10px 0;
+}
+.my-experience h4 {
+    padding:10px 0;
+}
+.my-experience p {
+    padding:10px 0;
+}
+.btn-primary1{
+    margin:20px auto;/*middle e asteche na*/
+    background-color: #de8e51;
+    padding:5px;
+    position: center;
+}
+/*End of Resume section  Part*/
+/*Start of End section  Part*/
+.end-section{
+    margin-top:20px;
+    background: #79d4f344;
+    border-radius:10px;
+    padding:50px 50px;
+}
+.lets-connect h1{
+    padding: 10px 0;
+}
+.lets-connect p{
+    padding: 10px 0;
+}
+.lets-message h1{
+    padding: 10px 0;
+}
+.gap{
+    padding: 10px 0;
+}
+.gap1{
+    padding: 10px 0;
+}
+/*End of End section  Part*/
